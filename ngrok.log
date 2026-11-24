@@ -1,0 +1,8 @@
+t=2026-11-24T15:41:55+0100 lvl=info msg="open config file" path=/Users/e-myty/Desktop/emyty-attendance/ngrok.yml err=<nil>
+t=2026-11-24T15:41:55+0100 lvl=info msg="FIPS 140 mode" enabled=false
+t=2026-11-24T15:41:55+0100 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2026-11-24T15:41:57+0100 lvl=info msg="client session established" obj=tunnels.session
+t=2026-11-24T15:41:57+0100 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-11-24T15:41:57+0100 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8080 url=https://predator-untying-curler.ngrok-free.dev
+t=2026-11-24T15:42:00+0100 lvl=info msg=start pg=/api/tunnels id=728c823be328fb88
+t=2026-11-24T15:42:00+0100 lvl=info msg=end pg=/api/tunnels id=728c823be328fb88 status=200 dur=123.167µs
