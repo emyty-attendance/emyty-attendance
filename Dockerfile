@@ -9,6 +9,9 @@ RUN bundle install
 
 COPY . .
 
+# Cache bust - force rebuild of COPY layer
+RUN echo "cache bust: $(date +%s)" > /tmp/cache_bust
+
 EXPOSE 8080 10000
 
 ENV PORT=8080
